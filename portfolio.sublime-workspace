@@ -1,0 +1,471 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"Edit",
+				"EditorTests"
+			],
+			[
+				"door",
+				"doorStopFixture"
+			],
+			[
+				"doorStop",
+				"doorStopShape"
+			],
+			[
+				"offS",
+				"offsetX"
+			],
+			[
+				"off",
+				"offsetY"
+			],
+			[
+				"wall",
+				"wallthickness"
+			],
+			[
+				"draw",
+				"DrawLevel"
+			],
+			[
+				"BuilLeve",
+				"BuildLevelPhysics"
+			],
+			[
+				"nodes",
+				"nodesByID"
+			],
+			[
+				"neih",
+				"neighborWall"
+			],
+			[
+				"neighbor",
+				"neighborWall"
+			],
+			[
+				"neibh",
+				"neighborID"
+			],
+			[
+				"room",
+				"roomSizeDelta"
+			],
+			[
+				"rand",
+				"rand_roomDeltas"
+			],
+			[
+				"globa",
+				"globalWidth"
+			],
+			[
+				"neighbo",
+				"neighbors"
+			],
+			[
+				"cell",
+				"cellsize"
+			],
+			[
+				"random",
+				"randomSeed"
+			],
+			[
+				"stack",
+				"stackSize-1"
+			],
+			[
+				"levelP",
+				"levelPxHeight"
+			],
+			[
+				"leve",
+				"levelPxHeight"
+			],
+			[
+				"level",
+				"levelPxSize"
+			],
+			[
+				"ox",
+				"ox"
+			],
+			[
+				"offset",
+				"offsetX"
+			],
+			[
+				"y",
+				"y"
+			],
+			[
+				"r",
+				"RussianFont"
+			],
+			[
+				"troph",
+				"trophiesAnimating"
+			],
+			[
+				"rende",
+				"renderTrophies"
+			],
+			[
+				"mode",
+				"modeTrophiesHeight"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+		],
+		"width": 392.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/E/Users/Ezra/dev/portfolio"
+	],
+	"file_history":
+	[
+		"/C/Users/Ezra/AppData/Roaming/Sublime Text 3/Packages/User/love2d.sublime-build",
+		"/C/Users/Ezra/AppData/Roaming/Sublime Text 3/Packages/User/Unity.sublime-build",
+		"/E/Users/Ezra/dev/tdsUnity/Assets/LevelGen.cs",
+		"/E/Users/Ezra/dev/tds/src/menu/game.lua",
+		"/E/Users/Ezra/dev/tds/src/level.lua",
+		"/E/Users/Ezra/dev/tds/src/assetLoader.lua",
+		"/E/Users/Ezra/dev/tds/require.lua",
+		"/E/Users/Ezra/dev/tds/src/generation/levelGen.lua",
+		"/E/Users/Ezra/dev/tds/main.lua",
+		"/E/Users/Ezra/dev/tds/src/entity.lua",
+		"/E/Users/Ezra/dev/tds/src/entities/bullet.lua",
+		"/E/Users/Ezra/dev/topdown/src/game.lua",
+		"/E/Users/Ezra/dev/topdown/src/menu.lua",
+		"/E/Users/Ezra/dev/topdown/src/misc/weapons.lua",
+		"/E/Users/Ezra/dev/topdown/require.lua",
+		"/E/Users/Ezra/dev/topdown/main.lua",
+		"/E/Users/Ezra/dev/topdown/lib/color.lua",
+		"/E/Users/Ezra/dev/topdown/src/controls.lua",
+		"/E/Users/Ezra/dev/topdown/src/entities/player.lua",
+		"/E/Users/Ezra/dev/topdown/src/util.lua",
+		"/E/Users/Ezra/dev/topdown/src/sprite.lua",
+		"/E/Users/Ezra/dev/topdown/assets/sprites/player.spr",
+		"/E/Users/Ezra/dev/topdown/src/entities/enemy.lua",
+		"/E/Users/Ezra/dev/topdown/lib/cache.lua",
+		"/E/Users/Ezra/dev/topdown/assets/sprites/testsprite.spr",
+		"/E/Users/Ezra/dev/topdown/lib/30log.lua",
+		"/C/Users/Ezra/AppData/Roaming/Sublime Text 3/Local/Session.sublime_session",
+		"/E/Users/Ezra/dev/topdown/twinstick.sublime-project",
+		"/E/Users/Ezra/dev/killsteal/src/controls.lua",
+		"/C/Users/Ezra/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/Ezra/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/E/Users/Ezra/dev/twinstick/src/menu.lua",
+		"/E/Users/Ezra/dev/twinstick/player.lua",
+		"/E/Users/Ezra/dev/twinstick/enemy.lua",
+		"/E/Users/Ezra/dev/twinstick/asteroid.lua",
+		"/E/Users/Ezra/dev/twinstick/game.lua",
+		"/E/Users/Ezra/dev/twinstick/menu.lua",
+		"/E/Users/Ezra/dev/twinstick/main.lua",
+		"/E/Users/Ezra/dev/killsteal/src/enemy.lua",
+		"/E/Users/Ezra/dev/love-src/readme.md",
+		"/E/Users/Ezra/dev/killsteal/src/sprite.lua",
+		"/E/Users/Ezra/Downloads/HRaySrc/readme.txt",
+		"/E/Users/Ezra/dev/polyomino/polyomino.js",
+		"/E/Users/Ezra/dev/polyomino/scripts/render.js",
+		"/E/Users/Ezra/dev/polyomino/index.html",
+		"/E/Users/Ezra/dev/polyomino/error.html",
+		"/E/Users/Ezra/dev/polyomino/scripts/trophies.js",
+		"/E/Users/Ezra/dev/polyomino/scripts/menu.js",
+		"/E/Users/Ezra/dev/polyomino/scripts/shapes.js",
+		"/E/Users/Ezra/dev/polyomino/scripts/game.js",
+		"/E/Users/Ezra/dev/polyomino/scripts/controls.js",
+		"/E/Users/Ezra/Downloads/compiler-latest/README.md",
+		"/E/Users/Ezra/dev/polyomino/images/Polyomino.png",
+		"/E/Users/Ezra/dev/polyomino/styles.css",
+		"/E/Users/Ezra/Documents/My Games/Crysis/game.cfg"
+	],
+	"find":
+	{
+		"height": 24.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"<open folders>"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"    ",
+			"\\\\",
+			"\\\\\\\\\\\\",
+			"\\\\\\\\\\",
+			"\\\\\\\\",
+			"\\\\\\",
+			"\\\\",
+			"then\n",
+			"end\n",
+			"End",
+			"end",
+			"End",
+			"end",
+			"End",
+			"end",
+			" do\n",
+			"do",
+			"Do",
+			"do",
+			"function",
+			"--",
+			"]]--",
+			"--[[",
+			"walls",
+			"else",
+			"wallthickness",
+			"y0",
+			"x0",
+			"block1",
+			"objects.",
+			"objects",
+			"else",
+			"level.shapes",
+			"level.fixtures",
+			"level.body",
+			"and not",
+			"wallMap",
+			"door.",
+			"door",
+			"finalWalls",
+			",",
+			" ",
+			"  ",
+			"Columns 6 through 9",
+			"Columns 1 through 5",
+			"offsetX",
+			"scale",
+			"cellsize-hcs",
+			"fixtures",
+			"love.graphics.line",
+			"print",
+			"BuildLevelFromData",
+			"d90",
+			"local n1",
+			"nodesByID[grid[i][j]].defaultWall",
+			"['rot'] =",
+			",[",
+			"['type']",
+			"})",
+			"['type']",
+			"})",
+			"f3",
+			"F3",
+			"F2",
+			"f2",
+			"F2",
+			"F1",
+			"f1",
+			"F1",
+			"Assets",
+			"ASSETS",
+			"print",
+			"Math",
+			"15",
+			"Math",
+			"math",
+			"Math",
+			"50/area",
+			"2048",
+			"table.insert",
+			"levelSize",
+			"+",
+			"1",
+			"true",
+			"4",
+			"8",
+			"1024",
+			"2000",
+			"setColor",
+			"level",
+			"!",
+			"!==",
+			"||",
+			"])",
+			"line",
+			";",
+			"ctx",
+			"module",
+			"console.log",
+			"(local",
+			"}",
+			"(local",
+			"var",
+			"colors",
+			"love.mouse",
+			"X",
+			"angle",
+			"player",
+			"m",
+			"drawX",
+			"rotation",
+			"{",
+			"'",
+			"'w'",
+			"move",
+			"X",
+			"self",
+			"sprites/",
+			"spr/",
+			"spr",
+			"ship",
+			"Ship",
+			"ship",
+			"project",
+			"update",
+			"MODE:",
+			"enter",
+			"k"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"\\t",
+			"\\n",
+			"",
+			" "
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 24.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 196.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "portfolio.sublime-project",
+	"replace":
+	{
+		"height": 44.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"E:\\Users\\Ezra\\dev\\jstests\\jstests.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
