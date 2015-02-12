@@ -25,6 +25,10 @@ function update(){
 			if(failFlag)
 				break;
 		}
+		if(sDistY > 2000){
+			failFlag = true;
+			//We've reached the end, basically
+		}
 	}
 	if(!failFlag && numPoints < maxPoints) {
 		draw();
@@ -62,7 +66,6 @@ window.onload = function(){
 	update();
 
 	var fnavAbout = function(){
-		console.log("navAbout");
 		weeble = true;
 		$("#navAbout").addClass("active");
 		$("#navProjects").removeClass("active");
@@ -73,7 +76,6 @@ window.onload = function(){
 
 	}
 	var fnavProjects = function(){
-		console.log("navProjects");
 		weeble = true;
 		$("#navProjects").addClass("active");
 		$("#navAbout").removeClass("active");
@@ -84,7 +86,6 @@ window.onload = function(){
 
 	}
 	var fnavSkills = function(){
-		console.log("navSkills");
 		weeble = true;
 		$("#navSkills").addClass("active");
 		$("#navAbout").removeClass("active");
@@ -95,7 +96,6 @@ window.onload = function(){
 
 	}
 	var fnavWork = function(){
-		console.log("navWork");
 		weeble = true;
 		$("#navWork").addClass("active");
 		$("#navAbout").removeClass("active");
@@ -106,7 +106,6 @@ window.onload = function(){
 
 	}
 	var fnavEducation = function(){
-		console.log("navEducation");
 		weeble = true;
 		$("#navEducation").addClass("active");
 		$("#navAbout").removeClass("active");
@@ -117,7 +116,6 @@ window.onload = function(){
 
 	}
 	var fnavContact = function(){
-		console.log("navContact");
 		weeble = true;
 		$("#navContact").addClass("active");
 		$("#navAbout").removeClass("active");
