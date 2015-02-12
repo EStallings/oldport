@@ -63,6 +63,7 @@ window.onload = function(){
 
 	var fnavAbout = function(){
 		console.log("navAbout");
+		weeble = true;
 		$("#navAbout").addClass("active");
 		$("#navProjects").removeClass("active");
 		$("#navSkills").removeClass("active");
@@ -73,6 +74,7 @@ window.onload = function(){
 	}
 	var fnavProjects = function(){
 		console.log("navProjects");
+		weeble = true;
 		$("#navProjects").addClass("active");
 		$("#navAbout").removeClass("active");
 		$("#navSkills").removeClass("active");
@@ -83,6 +85,7 @@ window.onload = function(){
 	}
 	var fnavSkills = function(){
 		console.log("navSkills");
+		weeble = true;
 		$("#navSkills").addClass("active");
 		$("#navAbout").removeClass("active");
 		$("#navProjects").removeClass("active");
@@ -93,6 +96,7 @@ window.onload = function(){
 	}
 	var fnavWork = function(){
 		console.log("navWork");
+		weeble = true;
 		$("#navWork").addClass("active");
 		$("#navAbout").removeClass("active");
 		$("#navProjects").removeClass("active");
@@ -103,6 +107,7 @@ window.onload = function(){
 	}
 	var fnavEducation = function(){
 		console.log("navEducation");
+		weeble = true;
 		$("#navEducation").addClass("active");
 		$("#navAbout").removeClass("active");
 		$("#navProjects").removeClass("active");
@@ -113,6 +118,7 @@ window.onload = function(){
 	}
 	var fnavContact = function(){
 		console.log("navContact");
+		weeble = true;
 		$("#navContact").addClass("active");
 		$("#navAbout").removeClass("active");
 		$("#navProjects").removeClass("active");
@@ -120,6 +126,7 @@ window.onload = function(){
 		$("#navWork").removeClass("active");
 		$("#navEducation").removeClass("active");
 	}
+	var weeble = false;
 	$("#navAbout").click(fnavAbout);
 	$("#navProjects").click(fnavProjects);
 	$("#navSkills").click(fnavSkills);
@@ -127,12 +134,17 @@ window.onload = function(){
 	$("#navEducation").click(fnavEducation);
 	$("#navContact").click(fnavContact);
 	var scrollDetect = function() {
-        if($(this).scrollTop() >= $("#AboutHeader").offset().top) { fnavAbout(); }
-         if($(this).scrollTop() >= $("#ProjectsHeader").offset().top) { fnavProjects(); }
-         if($(this).scrollTop() >= $("#SkillsHeader").offset().top) { fnavSkills(); }
-         if($(this).scrollTop() >= $("#WorkHeader").offset().top) { fnavWork(); }
-         if($(this).scrollTop() >= $("#EducationHeader").offset().top) { fnavEducation(); }
-         if($(this).scrollTop() >= $("#ContactHeader").offset().top) { fnavContact(); }
+		if(weeble)
+		{
+			weeble = false;
+			return;
+		}
+		if($(this).scrollTop() - 40> $("#AboutHeader").offset().top) { fnavAbout(); }
+		if($(this).scrollTop() - 40> $("#ProjectsHeader").offset().top) { fnavProjects(); }
+		if($(this).scrollTop() - 40> $("#SkillsHeader").offset().top) { fnavSkills(); }
+		if($(this).scrollTop() - 40> $("#WorkHeader").offset().top) { fnavWork(); }
+		if($(this).scrollTop() - 40> $("#EducationHeader").offset().top) { fnavEducation(); }
+		if($(this).scrollTop() - 40> $("#ContactHeader").offset().top) { fnavContact(); }
     }
     $(window).bind('scroll', scrollDetect);
 		
