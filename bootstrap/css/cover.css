@@ -75,7 +75,7 @@ p {
  * Header
  */
 .masthead-brand {
-	color: rgba(17,17,17,1); ;
+	color: rgba(17,17,17,1);
 	margin-top: 10px;
 	margin-bottom: 10px;
 }
@@ -100,13 +100,14 @@ p {
 .masthead-nav > li > a:focus {
 	background-color: transparent;
 	border-bottom-color: #a9a9a9;
-	border-bottom-color: rgba(20,200,20,.75);
+	border-bottom-color: rgba(150,150,150,1);
 }
 .masthead-nav > .active > a,
 .masthead-nav > .active > a:hover,
 .masthead-nav > .active > a:focus {
-	color: #24E024;
-	border-bottom-color: #24E024;
+	text-shadow: 0 0 3px rgba(25,25,25,.2);
+	color: rgba(77,77,77,1); 
+	border-bottom-color: rgba(77,77,77,1);
 }
 
 @media (min-width: 768px) {
