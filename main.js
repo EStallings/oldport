@@ -1,6 +1,6 @@
 
 WIDTH = 250;
-HEIGHT = (1080/4);
+HEIGHT = 1080;
 
 SPEED = 100; //number of points to diffuse at a time
 
@@ -39,10 +39,20 @@ context = null;
 window.onload = function(){
 	canvas = document.getElementById('canvas');
 	canvas.width = window.innerWidth;
-	canvas.height= window.innerHeight;
+	var body = document.body,
+    html = document.documentElement;
+
+	var height = Math.max( body.scrollHeight, body.offsetHeight, 
+	                       html.clientHeight, html.scrollHeight, html.offsetHeight );
+	canvas.height= height
 	$(window).resize(function(){
+		var body = document.body,
+	    html = document.documentElement;
+
+		var height = Math.max( body.scrollHeight, body.offsetHeight, 
+		                       html.clientHeight, html.scrollHeight, html.offsetHeight );
 		canvas.width = window.innerWidth;
-		canvas.height = window.innerHeight;
+		canvas.height = height
 		requestAnimationFrame(update);
 	});
 	
@@ -136,7 +146,7 @@ function draw(){
 	context.clearRect(0,0,canvas.width, canvas.height);
 	context.fillStyle = 'rgba(20,200,20,0.5)';
 	var scale = 4;
-	var oX = (canvas.width/2 - w2*scale)*1.0;
+	var oX = (canvas.width*(3/4) - w2*scale)*1.0;
 	var oY = (canvas.height/2 - h2*scale)*0.2;
 	for(var i = 0; i < WIDTH && i < canvas.width; i++){
 		for(var j = 0; j < HEIGHT && j < canvas.height; j++){
@@ -167,7 +177,7 @@ var numFails = 0;
 var failThreshold = 500;
 var failFlag = false;
 var cX = w2;
-var cY = HEIGHT-1;
+var cY = 10;
 
 //Make and initialize DLA specific stuff
 var map = [];
@@ -178,7 +188,7 @@ for(var i = 0; i<WIDTH; i++){
 	}
 	// map[i][HEIGHT-1] = 1;
 }
-map[w2][HEIGHT-1] = 1;
+map[w2][10] = 1;
 
 
 function getRandPos(){
@@ -189,7 +199,7 @@ function getRandPos(){
 		// currentX = boundsw((rint(2)==1) ? w2 + oX : w2 - oX);
 		// currentY = boundsh((rint(2)==1) ? h2 + oY : h2 - oY);
 		currentX = rint(WIDTH);
-		currentY = HEIGHT - sDistY - rint(bufferSizeY);
+		currentY = (sDistY + rint(bufferSizeY));
 		if(map[currentX][currentY] != 1){
 			return;
 		}
