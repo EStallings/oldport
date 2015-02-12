@@ -1,0 +1,167 @@
+/*
+ * Globals
+ */
+
+/* Links */
+a,
+a:focus,
+a:hover {
+	color: #fff;
+}
+
+/* Custom default button */
+.btn-default,
+.btn-default:hover,
+.btn-default:focus {
+	color: #333;
+	text-shadow: none; /* Prevent inheritence from `body` */
+	background-color: #fff;
+	border: 1px solid #fff;
+}
+
+
+/*
+ * Base structure
+ */
+
+html,
+body {
+	height: 100%;
+	background-color: #212125;
+}
+body {
+	color: #fff;
+	text-align: center;
+	text-shadow: 0 1px 3px rgba(0,0,0,.5);
+	z-index: inherit;
+	text-align: left;
+}
+
+
+p {
+	margin-left: 20px;
+}
+
+
+
+/* Extra markup and styles for table-esque vertical and horizontal centering */
+.site-wrapper {
+	display: table;
+	width: 100%;
+	height: 100%; /* For at least Firefox */
+	min-height: 100%;
+}
+.site-wrapper-inner {
+	display: table-cell;
+	vertical-align: top;
+	z-index: 2;
+}
+
+/* Padding for spacing */
+.inner {
+	padding: 30px;
+}
+
+#canvas {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	opacity: 0.5;
+	pointer-events: none;
+}
+
+
+/*
+ * Header
+ */
+.masthead-brand {
+	color: rgba(17,17,17,1); ;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.masthead-nav > li {
+	display: inline-block;
+}
+.masthead-nav > li + li {
+	margin-left: 20px;
+}
+.masthead-nav > li > a {
+	position: relative;
+	padding-right: 0;
+	padding-left: 0;
+	font-size: 16px;
+	font-weight: bold;
+	color: #111; /* IE8 proofing */
+	color: rgba(17,17,17,.75);
+	border-bottom: 2px solid transparent;
+}
+.masthead-nav > li > a:hover,
+.masthead-nav > li > a:focus {
+	background-color: transparent;
+	border-bottom-color: #a9a9a9;
+	border-bottom-color: rgba(17,17,17,.25);
+}
+.masthead-nav > .active > a,
+.masthead-nav > .active > a:hover,
+.masthead-nav > .active > a:focus {
+	color: #fff;
+	border-bottom-color: #fff;
+}
+
+@media (min-width: 768px) {
+	.masthead-brand {
+		float: left;
+	}
+	.masthead-nav {
+		float: right;
+	}
+}
+a.anchor{
+	display: block; 
+	position: relative; 
+	top: -250px; 
+	visibility: hidden;
+}
+/*
+ * Affix and center
+ */
+
+.masthead-outer {
+	opacity:1;
+	background-color: #d0d0d0;
+	width:100%;
+	position:fixed;
+	z-index:4;
+}
+@media (min-width: 768px) {
+	/* Pull out the header and footer */
+	.masthead {
+		
+		position: relative;
+		top: 0;
+		z-index: 5;
+		
+	}
+	/* Start the vertical centering */
+	.site-wrapper-inner {
+		vertical-align: middle;
+	}
+	/* Handle the widths */
+	.masthead {
+		width: 100%; /* Must be percentage or pixels for horizontal alignment */
+	}
+}
+
+@media (min-width: 992px) {
+	.masthead {
+		width: 700px;
+	}
+}
+
+.headerImage {
+	position: absolute;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%) }
+}
