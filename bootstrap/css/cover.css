@@ -133,13 +133,13 @@ a.anchor{
 	width:100%;
 	position:fixed;
 	z-index:4;
+	top: -24px;
 }
 @media (min-width: 768px) {
 	/* Pull out the header and footer */
 	.masthead {
 		
 		position: relative;
-		top: 0;
 		z-index: 5;
 		
 	}

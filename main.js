@@ -53,7 +53,7 @@ window.onload = function(){
 		                       html.clientHeight, html.scrollHeight, html.offsetHeight );
 		canvas.width = window.innerWidth;
 		canvas.height = height
-		requestAnimationFrame(update);
+		draw();
 	});
 	
 	context = canvas.getContext('2d');
