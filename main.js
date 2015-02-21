@@ -2,7 +2,7 @@
 WIDTH = 250;
 HEIGHT = 1080;
 
-SPEED = 100; //number of points to diffuse at a time
+SPEED = 10; //number of points to diffuse at a time
 
 var elapsed = 1;
 var tick = new Date().getTime();
@@ -17,7 +17,7 @@ function update(){
 		var factor = 20/elapsed;
 		// var num = Math.floor(SPEED*((numPoints)/maxPoints+1)*factor);
 		var num = SPEED * factor;
-
+		newPoints = [];
 		for(var i = 0; i < num; i++){
 
 			if(numPoints < maxPoints)
@@ -31,7 +31,7 @@ function update(){
 		}
 	}
 	if(!failFlag && numPoints < maxPoints) {
-		draw();
+		draw(false);
 		requestAnimationFrame(update);
 	}
 }
@@ -49,16 +49,16 @@ window.onload = function(){
 	var height = Math.max( body.scrollHeight, body.offsetHeight, 
 	                       html.clientHeight, html.scrollHeight, html.offsetHeight );
 	canvas.height= height
-	$(window).resize(function(){
-		var body = document.body,
-	    html = document.documentElement;
+	// $(window).resize(function(){
+	// 	var body = document.body,
+	//     html = document.documentElement;
 
-		var height = Math.max( body.scrollHeight, body.offsetHeight, 
-		                       html.clientHeight, html.scrollHeight, html.offsetHeight );
-		canvas.width = window.innerWidth;
-		canvas.height = height
-		draw();
-	});
+	// 	var height = Math.max( body.scrollHeight, body.offsetHeight, 
+	// 	                       html.clientHeight, html.scrollHeight, html.offsetHeight );
+	// 	// canvas.width = window.innerWidth;
+	// 	// canvas.height = height
+	// 	draw(true);
+	// });
 	
 	context = canvas.getContext('2d');
 	context.fillStyle = 'rgba(0,0,0,0)';
@@ -152,18 +152,29 @@ window.onload = function(){
 
 }
 
-function draw(){
-	context.clearRect(0,0,canvas.width, canvas.height);
-	context.fillStyle = 'rgba(20,200,20,0.5)';
+function draw(all){
 	var scale = 4;
 	var oX = (canvas.width*(3/4) - w2*scale)*1.0;
 	var oY = (canvas.height/2 - h2*scale)*0.2;
-	for(var i = 0; i < WIDTH && i < canvas.width; i++){
-		for(var j = 0; j < HEIGHT && j < canvas.height; j++){
-			if(map[i][j] == 1){
-				context.fillRect(oX+i*scale, oY+j*scale, 2, 2);
+	context.fillStyle = 'rgba(20,240,20,0.5)';
+	
+	if(false)
+	{
+		context.clearRect(0,0,canvas.width, canvas.height);	
+		for(var i = 0; i < WIDTH && i < canvas.width; i++){
+			for(var j = 0; j < HEIGHT && j < canvas.height; j++){
+				if(map[i][j] == 1){
+					context.fillRect(oX+i*scale, oY+j*scale, 2, 2);
+				}
 			}
 		}
+	}
+	else
+	{
+		for(var p in newPoints){
+			context.fillRect(oX+newPoints[p].x*scale, oY+newPoints[p].y*scale, 2, 2);
+		}
+		newPoints = [];
 	}
 }
 
@@ -199,7 +210,7 @@ for(var i = 0; i<WIDTH; i++){
 	// map[i][HEIGHT-1] = 1;
 }
 map[w2][10] = 1;
-
+var newPoints = [];
 
 function getRandPos(){
 	for(var i = 0; i < numTries; i++){
@@ -246,6 +257,7 @@ function diffusePoint(num)
 	}
 	if(success) {
 		map[currentX][currentY] = 1;
+		newPoints.push({x:currentX, y:currentY});
 		numPoints ++;
 		var dx = Math.abs(currentX-cX) + distBufferX;
 		var dy = Math.abs(currentY-cY) + distBufferY;

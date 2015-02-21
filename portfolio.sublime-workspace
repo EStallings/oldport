@@ -4,6 +4,66 @@
 		"selected_items":
 		[
 			[
+				"border-bottom",
+				"border-bottom-color"
+			],
+			[
+				"max",
+				"maxPoints"
+			],
+			[
+				"inli",
+				"inline-block"
+			],
+			[
+				"HEIGHT",
+				"HEIGHT-1"
+			],
+			[
+				"buffer",
+				"bufferSizeY"
+			],
+			[
+				"height",
+				"HEIGHT-1"
+			],
+			[
+				"HEI",
+				"HEIGHT-1"
+			],
+			[
+				"dist",
+				"distBufferX"
+			],
+			[
+				"curr",
+				"currentX"
+			],
+			[
+				"cur",
+				"currentY"
+			],
+			[
+				"curre",
+				"currentX"
+			],
+			[
+				"fill",
+				"fillStyle"
+			],
+			[
+				"num",
+				"numPoints"
+			],
+			[
+				"in",
+				"innerHeight"
+			],
+			[
+				"margi",
+				"margin-right"
+			],
+			[
 				"Edit",
 				"EditorTests"
 			],
@@ -123,6 +183,47 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 12733,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "Z3I2KZD3LMXBG6\n\nns-345.awsdns-43.com\nns-1987.awsdns-56.co.uk\nns-1157.awsdns-16.org\nns-514.awsdns-00.net",
+			"settings":
+			{
+				"buffer_size": 103,
+				"line_ending": "Windows",
+				"name": "Z3I2KZD3LMXBG6"
+			}
+		},
+		{
+			"file": "bootstrap/css/cover.css",
+			"settings":
+			{
+				"buffer_size": 2575,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "main.js",
+			"settings":
+			{
+				"buffer_size": 8061,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/E/Users/Ezra/dev/automaton/src/system/engine.js",
+			"settings":
+			{
+				"buffer_size": 694,
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -151,10 +252,29 @@
 	},
 	"expanded_folders":
 	[
-		"/E/Users/Ezra/dev/portfolio"
+		"/E/Users/Ezra/dev/portfolio",
+		"/E/Users/Ezra/dev/portfolio/assets",
+		"/E/Users/Ezra/dev/portfolio/bootstrap",
+		"/E/Users/Ezra/dev/portfolio/bootstrap/css"
 	],
 	"file_history":
 	[
+		"/E/Users/Ezra/Documents/MATLAB/problem4.m",
+		"/E/Users/Ezra/Downloads/cobweb.m",
+		"/E/Users/Ezra/Downloads/complete-shibari-volume-1-land-pdf.pdf",
+		"/E/Users/Ezra/dev/portfolio/bootstrap/css/bootstrap.css",
+		"/E/Users/Ezra/dev/portfolio/bootstrap/css/cover.css",
+		"/E/Users/Ezra/dev/portfolio/index.html",
+		"/C/Users/Ezra/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/Ezra/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/E/Users/Ezra/dev/automaton/.gitignore",
+		"/E/Users/Ezra/dev/portfolio/home.html",
+		"/E/Users/Ezra/dev/automaton/src/system/engine.js",
+		"/E/Users/Ezra/dev/jstests/dla/main.js",
+		"/E/Users/Ezra/dev/portfolio/bootstrap/css/carousel.css",
+		"/E/Users/Ezra/dev/portfolio/assets/favicon.png",
+		"/E/Users/Ezra/dev/portfolio/bootstrap/js/ie10-viewport-bug-workaround.js",
+		"/E/Users/Ezra/dev/portfolio/portfolio.sublime-project",
 		"/C/Users/Ezra/AppData/Roaming/Sublime Text 3/Packages/User/love2d.sublime-build",
 		"/C/Users/Ezra/AppData/Roaming/Sublime Text 3/Packages/User/Unity.sublime-build",
 		"/E/Users/Ezra/dev/tdsUnity/Assets/LevelGen.cs",
@@ -184,8 +304,6 @@
 		"/C/Users/Ezra/AppData/Roaming/Sublime Text 3/Local/Session.sublime_session",
 		"/E/Users/Ezra/dev/topdown/twinstick.sublime-project",
 		"/E/Users/Ezra/dev/killsteal/src/controls.lua",
-		"/C/Users/Ezra/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
-		"/C/Users/Ezra/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
 		"/E/Users/Ezra/dev/twinstick/src/menu.lua",
 		"/E/Users/Ezra/dev/twinstick/player.lua",
 		"/E/Users/Ezra/dev/twinstick/enemy.lua",
@@ -213,7 +331,7 @@
 	],
 	"find":
 	{
-		"height": 24.0
+		"height": 34.0
 	},
 	"find_in_files":
 	{
@@ -228,139 +346,139 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"    ",
-			"\\\\",
-			"\\\\\\\\\\\\",
-			"\\\\\\\\\\",
-			"\\\\\\\\",
-			"\\\\\\",
-			"\\\\",
-			"then\n",
-			"end\n",
-			"End",
-			"end",
-			"End",
-			"end",
-			"End",
-			"end",
-			" do\n",
-			"do",
-			"Do",
-			"do",
-			"function",
-			"--",
-			"]]--",
-			"--[[",
-			"walls",
-			"else",
-			"wallthickness",
-			"y0",
-			"x0",
-			"block1",
-			"objects.",
-			"objects",
-			"else",
-			"level.shapes",
-			"level.fixtures",
-			"level.body",
-			"and not",
-			"wallMap",
-			"door.",
-			"door",
-			"finalWalls",
-			",",
-			" ",
-			"  ",
-			"Columns 6 through 9",
-			"Columns 1 through 5",
-			"offsetX",
-			"scale",
-			"cellsize-hcs",
-			"fixtures",
-			"love.graphics.line",
-			"print",
-			"BuildLevelFromData",
-			"d90",
-			"local n1",
-			"nodesByID[grid[i][j]].defaultWall",
-			"['rot'] =",
-			",[",
-			"['type']",
-			"})",
-			"['type']",
-			"})",
-			"f3",
-			"F3",
-			"F2",
-			"f2",
-			"F2",
-			"F1",
-			"f1",
-			"F1",
-			"Assets",
-			"ASSETS",
-			"print",
-			"Math",
-			"15",
-			"Math",
-			"math",
-			"Math",
-			"50/area",
-			"2048",
-			"table.insert",
-			"levelSize",
-			"+",
+			"Ya",
+			"const3",
+			"const2",
+			"const1",
+			"index",
+			"a4",
+			"a3",
+			"a2",
+			"a1",
+			"my",
+			"mx",
+			"Dy",
+			"Dx",
+			"Cy",
+			"Cx",
+			"(index)",
 			"1",
-			"true",
-			"4",
-			"8",
-			"1024",
-			"2000",
-			"setColor",
-			"level",
-			"!",
-			"!==",
-			"||",
-			"])",
-			"line",
-			";",
-			"ctx",
-			"module",
-			"console.log",
-			"(local",
-			"}",
-			"(local",
-			"var",
-			"colors",
-			"love.mouse",
-			"X",
-			"angle",
-			"player",
-			"m",
-			"drawX",
-			"rotation",
-			"{",
-			"'",
-			"'w'",
-			"move",
-			"X",
-			"self",
-			"sprites/",
-			"spr/",
-			"spr",
-			"ship",
-			"Ship",
-			"ship",
-			"project",
-			"update",
-			"MODE:",
-			"enter",
-			"k"
+			"B",
+			"A",
+			"(1:length(A)/8:end)",
+			"=",
+			"c3",
+			"c2",
+			"c1",
+			"k",
+			"42",
+			"1",
+			"k",
+			"1",
+			"’",
+			"mx1",
+			"y1",
+			"x1",
+			"my1",
+			"mx1",
+			"Dy1",
+			"Dx1",
+			"a",
+			"b1",
+			">>",
+			"ans =",
+			">>",
+			"ans =",
+			"50",
+			"17",
+			"27",
+			"50",
+			"17",
+			"sDistY",
+			"console.log(",
+			">=",
+			"top",
+			"height",
+			"rgb",
+			"$(document).height();",
+			"window.innerHeight",
+			"console.log('sna",
+			"this",
+			"Top() + $(\"#",
+			"lTop() ",
+			"+ $(",
+			"+ $(\"",
+			"scrollTop",
+			"navContact",
+			"navEducation",
+			"navWork",
+			"navSkills",
+			"navProjects",
+			"navAbout",
+			"offset",
+			"offset(",
+			"show",
+			"if($(\"",
+			"document",
+			"ocument.getElementById(\"navAbout\").s",
+			");",
+			"$(\"#",
+			"aler",
+			"$(this).sc",
+			"click",
+			"$(\"",
+			"$(this",
+			"this",
+			"click",
+			"alt=\"Generic placeholder image\"",
+			"style=\"display:inline-block; float:right\"",
+			"class=\"col-md-5\"",
+			"holder.js/500x500/auto",
+			"ul",
+			"<div class=\"col-md-7\">",
+			"</li>",
+			"<li>",
+			"</p>",
+			"<p class=\"lead\">",
+			"color",
+			"255",
+			"inner",
+			"position:",
+			".row",
+			"row",
+			"container",
+			"{\n",
+			"z-index",
+			" id=",
+			"(function(){",
+			"$(this).addClass(\"active\");",
+			"id=\"",
+			"ac\"",
+			"masthead",
+			"width:",
+			"inline-",
+			"  ",
+			"cover-container",
+			"masthead",
+			"  ",
+			"z-index",
+			"=\"featurette-heading\"",
+			"cX",
+			"console",
+			"distBufferY",
+			"bufferSizeY",
+			"bufferSizeX",
+			"distBuffer",
+			"distBufferX",
+			"bounds",
+			"SIZE",
+			"s2",
+			"SIZE"
 		],
 		"highlight": true,
 		"in_selection": false,
 		"preserve_case": false,
-		"regex": true,
+		"regex": false,
 		"replace_history":
 		[
 			"\\t",
@@ -377,8 +495,160 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 12733,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3229,
+								3229
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 928.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 103,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								103,
+								16
+							]
+						],
+						"settings":
+						{
+							"auto_name": "Z3I2KZD3LMXBG6",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "bootstrap/css/cover.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2575,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1659,
+								1659
+							],
+							[
+								1662,
+								1662
+							],
+							[
+								1665,
+								1665
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1928.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "main.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8061,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								574,
+								574
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/E/Users/Ezra/dev/automaton/src/system/engine.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 694,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								505,
+								391
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -424,7 +694,7 @@
 	"project": "portfolio.sublime-project",
 	"replace":
 	{
-		"height": 44.0
+		"height": 62.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -463,7 +733,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 150.0,
+	"side_bar_width": 220.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

@@ -41,7 +41,9 @@ body {
 p {
 	margin-left: 20px;
 }
-
+h2 {
+	/*color: rgba(20,200,20,1);*/
+}
 
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
@@ -66,7 +68,7 @@ p {
 	position: absolute;
 	left: 0px;
 	top: 0px;
-	opacity: 0.5;
+	opacity: 0.9;
 	pointer-events: none;
 }
 
@@ -105,9 +107,9 @@ p {
 .masthead-nav > .active > a,
 .masthead-nav > .active > a:hover,
 .masthead-nav > .active > a:focus {
-	text-shadow: 0 0 3px rgba(25,25,25,.2);
-	color: rgba(77,77,77,1); 
-	border-bottom-color: rgba(77,77,77,1);
+	text-shadow: 0 0 3px rgba(0,0,0,.5);
+	color: rgba(00,250,00,1); 
+	border-bottom-color: rgba(0,0,0,1);
 }
 
 @media (min-width: 768px) {
